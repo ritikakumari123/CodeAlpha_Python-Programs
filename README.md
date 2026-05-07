@@ -73,9 +73,7 @@ A rule-based chatbot that responds to basic user inputs like greetings, question
 1. Clone this repository  
 2. Open terminal or command prompt  
 3. Run any project file
-4. python hangman.py
-5. python chatbot.py
-6. python stock.py
+4. python filename.py
    ---
 
 # 👩‍💻 Author
