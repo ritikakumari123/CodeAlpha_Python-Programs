@@ -1,60 +1,87 @@
-Hangman Game (Python)
+#CodeAlpha Python Internship Projects
 
-##  About
-This is a simple console-based Hangman game made using Python.  
-The player has to guess the hidden word one letter at a time within limited chances.
+This repository contains beginner-level Python projects completed as part of the CodeAlpha internship tasks. These projects demonstrate fundamental programming concepts using Python.
 
 ---
 
-## Features
-- Random word selection from a list
-- 6 chances to guess the word
-- Shows already guessed letters
-- Simple text-based gameplay
-- Beginner-friendly code
+# Projects Included
+
+##  1. Hangman Game
+
+### Description
+A simple text-based Hangman game where the player guesses a hidden word one letter at a time.
+
+###  Features
+- Random word selection from a list  
+- Limited chances (6 attempts)  
+- Tracks guessed letters  
+- Simple console-based gameplay  
+
+###  Concepts Used
+- random module  
+- while loop  
+- strings and lists  
+- if-else conditions  
 
 ---
 
-##  Technologies Used
-- Python
+## 2. Stock Portfolio Tracker
+
+###  Description
+A simple stock investment calculator that calculates total investment based on user input and predefined stock prices.
+
+###  Features
+- User enters stock name and quantity  
+- Uses dictionary for stock prices  
+- Calculates total investment value  
+- Saves result in a text file  
+
+### Concepts Used
+- dictionary  
+- input/output handling  
+- arithmetic operations  
+- file handling  
 
 ---
 
-##  How to Run
+##  3. Basic Chatbot (AI Assistant)
 
-1. Install Python on your system
-2. Download or clone this repository
-3. Open terminal / command prompt
-4. Run the file:
-    python hangman.py
----
+###  Description
+A rule-based chatbot that responds to basic user inputs like greetings, questions, and simple commands.
 
-## Rules of the Game
-- A random word is chosen
-- You enter one letter at a time
-- Correct letters are shown in the word
-- Wrong guesses reduce chances
-- You have 6 total chances
-- Win by guessing the full word
+### Features
+- Responds to greetings (hi, hello)  
+- Answers basic questions  
+- Simple conversational flow  
+- Exit command to stop program  
 
----
-
-## Project Structure
-   hangman-game/
-│
-├── hangman.py
-└── README.md
+### Concepts Used
+- functions  
+- while loop  
+- if-elif conditions  
+- string manipulation  
 
 ---
 
-##  What I Learned
-- Using random module
-- While loops
-- If-else conditions
-- Working with strings and lists
-- Basic problem solving in Python
+# Technologies Used
+- Python 
 
 ---
 
-## Author
+# How to Run
+
+1. Clone this repository  
+2. Open terminal or command prompt  
+3. Run any project file
+4. python hangman.py
+5. python chatbot.py
+6. python stock.py
+   ---
+
+# 👩‍💻 Author
 Ritika
+
+---
+
+# ⭐ Internship
+This repository was created as part of the CodeAlpha Python Internship program.
